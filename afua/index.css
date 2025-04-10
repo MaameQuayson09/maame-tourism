@@ -1,0 +1,63 @@
+
+@media  (max-width: 500px){
+   nav ul li a{
+    font-size: 20px;
+   }
+
+   .culture2{
+    gap: 10px;
+
+   }
+
+   .culture3{
+    display: block;
+   }
+
+   .culture3 img{
+    width: 480px;
+   }
+
+   .explore-1{
+    display: block;
+   }
+
+   .explore-1 img{
+    width: 300px;
+   }
+
+   .explore-2 button{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+   }.explore-3 button{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+   }
+
+   .sec1{
+    height: 2700px;
+   }
+
+  .explore-2 h2{
+    font-size: 25px;
+    margin-bottom: 0;
+   }
+
+
+
+   h1{
+    font-size: 50px;
+   }
+
+   p{
+    font-size: 20px;
+    text-align: left;
+   }
+
+
+}

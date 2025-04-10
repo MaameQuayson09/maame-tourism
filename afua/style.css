@@ -1,0 +1,291 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: "Playwrite VN", serif; */
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+
+}
+
+body{
+    background-image:  linear-gradient(rgba(16, 212, 49, 0.301),rgba(26, 204, 64, 0.438),rgba(12, 226, 83, 0.336)),url(waterfall.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: the 25s ease-out infinite;
+
+}
+
+.logo img{
+    width: 220px;
+    margin-left: 50px;
+}
+
+/* .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+} */
+
+@keyframes the{
+    0%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.541)),url(waterfall.webp);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+
+    30%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.541)),url(lara.png);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+
+    80%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.541)),url(culture2.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+
+    100%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.541)),url(culture2.jpg);
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.253),rgba(255, 255, 0, 0.253),rgba(0, 128, 0, 0.219));
+    height: 90px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    color: white;
+    padding: 0 5px;
+    list-style-type: none;
+    
+}
+
+nav ul li a:hover{
+    color: black;
+    background: mintcream;
+    border-radius: 10px;
+}
+
+.con{
+    display: none; 
+    background-color: rgb(6, 146, 48);
+    position: absolute;
+    z-index: 1;
+    min-width: 10px;
+    
+}
+.con a{
+    font-weight: 4px;
+    font-size: 16px;
+
+    color: #f0f4f8;
+    display: block;
+
+
+}
+.button:hover .con{
+    display: block;
+}
+.button{
+    position: relative;
+    display: inline-block;
+    
+}
+button{
+    background: transparent;
+    border: none;
+    color: aliceblue ;
+    font-size: 18px;
+    
+}
+
+select{
+    background: transparent;
+    margin-left: 0px;
+    padding-left: 0;
+    color: lightgreen;
+    font-size: 25px;
+    border: none;
+}
+
+select:hover{
+    background: lightgreen;
+    color: black;
+    border-radius: 5px;
+}
+option{
+    font-size: 20px;
+}
+
+
+
+
+/* hero section */
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    background-size: 100%;
+    font-size: 120px;
+    background-image: linear-gradient(45deg, rgb(128, 30, 0), rgb(208, 255, 0), green);
+    margin-top: 200px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+h5{
+    text-align: center;
+    background-size: 100%;
+    font-size: 30px;
+    background-image: linear-gradient(45deg, green, blue);
+}
+
+
+/* explore section */
+
+.sec1{
+    background: black;
+    height: 2000px;
+    margin-top: 300px;
+    background-image: linear-gradient(45deg, rgb(9, 0, 128), green);
+
+}
+
+.sec1 h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.explore-1{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.explore-1 img{
+    width: 30%;
+    
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+.explore-1 button{
+color: aliceblue;
+background: black;
+border-radius: 5px;
+width: 60px;
+}
+
+.explore-1 button:hover{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* culture section */
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.culture1{
+    max-width: 100%;
+    height: 2500px;
+    background: black;
+    margin-top: 200px;
+}
+
+.culture2{
+    display: flex;
+    gap: 65px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.culture2 img{
+    max-width: 30%;
+    
+}
+
+.culture3{
+    display: flex;
+}
+
+footer{
+    background: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.footer2 h3{
+    color: white;
+    font-size: 20px;
+}
+
+.footer3 h3{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
